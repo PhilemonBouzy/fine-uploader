@@ -3,7 +3,7 @@
 // Definitions by: Sukhdeep Singh <https://github.com/SinghSukhdeep>
 
 
-declare module "fine-uploader/lib/core" {
+declare module "phine-uploader/lib/core" {
 
 
     export class FineUploaderBasic {
@@ -2145,7 +2145,7 @@ declare module "fine-uploader/lib/core" {
 
 
 
-declare module "fine-uploader" {
+declare module "phine-uploader" {
 
     import {
         FineUploaderBasic,
@@ -2158,7 +2158,7 @@ declare module "fine-uploader" {
         TextOptions,
         PromiseOptions,
         CustomResizerCallBack
-    } from 'fine-uploader/lib/core';
+    } from 'phine-uploader/lib/core';
 
     export class FineUploader extends FineUploaderBasic {
 
@@ -2605,7 +2605,7 @@ declare module "fine-uploader" {
 }
 
 
-declare module "fine-uploader/lib/azure" {
+declare module "phine-uploader/lib/azure" {
 
     import {
         FineUploader as FineUploaderCore,
@@ -2615,7 +2615,7 @@ declare module "fine-uploader/lib/azure" {
         UIPasteOptions,
         UIScalingOptions,
         UITextOptions
-    } from 'fine-uploader';
+    } from 'phine-uploader';
 
     import {
         FineUploaderBasic as FineUploaderBasicCore,
@@ -2625,7 +2625,7 @@ declare module "fine-uploader/lib/azure" {
         CoreOptions,
         ResumableFileObject,
         PromiseOptions
-    } from 'fine-uploader/lib/core';
+    } from 'phine-uploader/lib/core';
 
 
 
@@ -2984,7 +2984,7 @@ declare module "fine-uploader/lib/azure" {
 }
 
 
-declare module "fine-uploader/lib/s3" {
+declare module "phine-uploader/lib/s3" {
 
     import {
         FineUploader as FineUploaderCore,
@@ -2994,7 +2994,7 @@ declare module "fine-uploader/lib/s3" {
         UIPasteOptions,
         UIScalingOptions,
         UITextOptions
-    } from 'fine-uploader';
+    } from 'phine-uploader';
 
     import {
         FineUploaderBasic as FineUploaderBasicCore,
@@ -3005,7 +3005,7 @@ declare module "fine-uploader/lib/s3" {
         ResumableFileObject,
         CoreEvents,
         PromiseOptions
-    } from 'fine-uploader/lib/core';
+    } from 'phine-uploader/lib/core';
 
 
 

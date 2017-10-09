@@ -1,7 +1,7 @@
-import { FineUploader, UIOptions } from 'fine-uploader';
-import { s3 } from 'fine-uploader/lib/s3';
-import { azure } from 'fine-uploader/lib/azure';
-import { PromiseOptions } from 'fine-uploader/lib/core';
+import { FineUploader, UIOptions } from 'phine-uploader';
+import { s3 } from 'phine-uploader/lib/s3';
+import { azure } from 'phine-uploader/lib/azure';
+import { PromiseOptions } from 'phine-uploader/lib/core';
 
 /**
  * Prepare/set options for the core + UI FineUploader
